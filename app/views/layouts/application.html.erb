@@ -17,8 +17,8 @@
     <%= yield %>
 
     <%= render 'layouts/footer' %>
-    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
     
+    <%= javascript_include_tag "application", 'data-turbolinks-track' => true %>
     <%= content_for?(:end_js) ? yield(:end_js) : "" %>
   </body>
 </html>
