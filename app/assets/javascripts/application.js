@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require foundation
 //= require turbolinks
-//= require_tree .
+//= require phaser
+//= require parallax/parallax.min.js
 
 $(function(){ $(document).foundation(); });
